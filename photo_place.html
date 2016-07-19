@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+         <style>
+
+            div:nth-of-type(1)  {
+                        background-image:url(images/potd3.jpg);
+         }
+            div:nth-of-type(2)  {
+                        background-image:url(images/POTD1.jpg);
+
+         }
+            div:nth-of-type(3)  {
+                        background-image:url(images/potd4.jpg);
+         }
+
+            div:nth-of-type(4)  {
+                        background-image:url(images/potd.jpg);
+         }
+
+                             /* Настройка для медиа устройств в новой версии! */
+
+                   @media all and (min-width:1000px){
+
+         div{
+             width:25%;
+             float:left;
+             height:100%;
+             background-size: cover;
+             background-position: center; /* что бы расстянуть картинку во весь экран*/
+         }
+             }
+                   @media all and (max-width:1000px) and (min-width: 600px){
+
+         div{
+             width:50%;
+             float:left;
+             height:50%;
+             background-size: cover;
+             background-position: center; /* что бы расстянуть картинку во весь экран*/
+         }
+             }
+                   @media all and (max-width:600px){
+
+         div{
+             width:100%;
+             float:left;
+             height:25%;
+             background-size: cover;
+             background-position: center; /* что бы расстянуть картинку во весь экран*/
+         }}
+
+         body{
+             height: 100%;
+             margin: 0;
+
+         }
+           html{
+               height: 100%;
+           }
+
+         </style>
+
+
+</head>
+
+<body>
+  <div>
+      2
+  </div>
+
+         <div>
+      2
+          </div>
+
+   <div>
+      2
+  </div>
+
+      <div>
+      2
+      </div>
+
+</body>
+
+</html>
